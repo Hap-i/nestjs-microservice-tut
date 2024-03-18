@@ -11,7 +11,6 @@ import { ModelDefinition, MongooseModule } from '@nestjs/mongoose';
       }),
       inject: [ConfigService],
     }),
-    // MongooseModule.forRoot('mongodb://localhost:27017/sleeper'),
   ],
 })
 export class DatabaseModule {
